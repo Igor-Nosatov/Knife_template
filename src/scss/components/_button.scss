@@ -1,0 +1,18 @@
+.main-button {
+  color: $white;
+  background: $dark-red;
+  border-color: $dark-red;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding:($size-1 - 20px);
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: ($size-1 - 16px);
+  vertical-align: text-bottom;
+
+  &:hover{
+      color: $white;
+  }
+}

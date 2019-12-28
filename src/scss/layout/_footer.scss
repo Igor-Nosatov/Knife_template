@@ -1,0 +1,24 @@
+.footer-nav>.nav-item>.nav-link{
+  color: $black;
+  font-size: ($size-2 - 2px);
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.social-icons>.nav>.nav-link>i{
+  color: #a5bac0;
+  font-size: ($size-2 + 15px);
+  font-weight: 400;
+  letter-spacing: 2px;
+  &:hover{
+    color: $black;
+  }
+}
+.tag>.block>.tag-name{
+  display: flex;
+  flex-flow: row;
+  color:black;
+  font-size: $size-2;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin: ($size-2/2);
+}

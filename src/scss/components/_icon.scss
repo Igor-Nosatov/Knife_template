@@ -1,0 +1,23 @@
+.fa-male,
+.fa-map-marker-alt {
+  color: $grey;
+  font-size: 15px;
+}
+.fa-bars{
+  color:$white;
+}
+
+.fa-heart,
+.fa-arrows-alt,
+.fa-steam{
+  color:$dark-red;
+}
+
+
+.fa-times{
+  color: $grey;
+  font-size: 28px;
+  &:hover{
+    color: $grey;
+  }
+}

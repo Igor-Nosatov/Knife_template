@@ -1,0 +1,39 @@
+.nav-account {
+  background-color: $dark-white;
+}
+
+.shop-offers > .nav > .nav-item > .nav-link {
+  color: $black;
+  font-weight: 100;
+  font-size: ($size-2 - 5px);
+
+  &:hover {
+    color: $dark-red;
+  }
+}
+
+.account-links > .nav > .nav-item > .nav-link,
+.shop-offers {
+  color: $black;
+  font-weight: 100;
+  font-size: ($size-2 - 5px);
+
+  &:hover {
+    color: $dark-red;
+  }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-size: ($size-2 + 5px);
+  color: $black;
+  font-weight: 100;
+  border: 1px solid $white;
+  margin-top: ($bg-size + 20px);
+
+  &:hover {
+    color: $dark-red;
+    border-bottom: 1px solid $dark-red;
+  }
+}

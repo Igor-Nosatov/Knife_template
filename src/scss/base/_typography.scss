@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
+.sub-text-title {
+  font-weight: 200;
+  font-size: $size-1;
+  color: $dark-red;
+}
+
+.text-title {
+  font-weight: bold;
+  font-size: 32px;
+  color: $dark-red;
+}
+
+.sub-text-title1 {
+  font-weight: 200;
+  font-size: $size-1;
+  color: $dark-blue;
+}
+
+.text-title1 {
+  font-weight: bold;
+  font-size: ($size-1 + 2px);
+  color: $dark-blue;
+}
+
+.sub-card-title {
+  font-size: ($size-1 - 18px);
+  color: $black;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.title-gift_ideas,
+.title-related-products,
+.title_ideas_promotion,
+.title_info_area {
+  text-align: center;
+  font-size: ($size-1 + 2px);
+  color: $grey;
+  font-weight: 200;
+}
+
+.card-title {
+  color: $black;
+}
+
+.footer-title,
+.product-title {
+  color: $black;
+  font-size: ($size-1 - 10px);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.product-text {
+  color: $black;
+  font-size: ($size-1 - 12px);
+  font-weight: 400;
+  letter-spacing: 2px;
+}

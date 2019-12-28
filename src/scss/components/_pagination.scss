@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    border-radius: 0rem;
+    margin: ($size-2 * 2) !important;
+    float: right;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  border-radius: 100% !important;
+  margin:  5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: $x-size $x-size+4px;
+  border:1px solid $dark-red;
+  background-color: $dark-red;
+  color: $white;
+  &:hover{
+    background-color: $white;
+    border:1px solid $dark-red;
+    color:$black;
+  }
+}

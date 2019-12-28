@@ -1,0 +1,24 @@
+.search-form>.form-group>.form-control{
+  margin-top: $size-2;
+  background-color: $dark-white;
+  border: none;
+  border-radius: 0rem;
+  color:$black;
+  font-weight: 800;
+  font-size: $size-2;
+}
+.newsletter-box>.form-inline>.form-group>.form-control{
+ padding: $size-2;
+ border-radius: 0rem;
+ color:$black;
+ font-weight: 800;
+ font-size: $size-2;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  padding: ($size-2 - 5px);
+  letter-spacing: 2px;
+  font-size: ($size-2 - 2px);
+  font-weight: 900;
+}
